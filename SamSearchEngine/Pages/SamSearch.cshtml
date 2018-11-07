@@ -1,0 +1,26 @@
+﻿@page
+@model SamSearchModel
+@{
+    ViewData["Title"] = "Search";
+
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<script>
+  (function() {
+    var cx = '004623051103029271626:bvfbk3gamxc';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search enableAutoComplete="true"></gcse:search>
+
+        
+
+
+
